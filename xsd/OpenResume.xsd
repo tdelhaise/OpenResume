@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="https://www.openresume.org"
+        xmlns="https://www.openresume.org"
+        elementFormDefault="qualified">
+    <xs:element name="open-resume">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="version" type="version-type" maxOccurs="1" minOccurs="1"/>
+                <xs:element name="personal-information" type="personal-information-type" maxOccurs="1" minOccurs="1"/>
+                <xs:element name="experiences" type="experiences-type" maxOccurs="1" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="experiences-type">
+        <xs:sequence>
+            <xs:element name="experience" type="experience-type" maxOccurs="1" minOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="experience-type">
+        <xs:sequence>
+            <xs:element name="start-date" type="xs:date" maxOccurs="1" minOccurs="1"/>
+            <xs:element name="end-date" type="xs:date" maxOccurs="1" minOccurs="0"/>
+            <xs:element name="job-name" type="xs:string" maxOccurs="1" minOccurs="1"/>
+            <xs:element name="company-name" type="xs:string" maxOccurs="1" minOccurs="0"/>
+            <xs:element name="missions" type="mission-type" maxOccurs="1" minOccurs="1"/>
+            <xs:element name="roles" type="role-type" maxOccurs="1" minOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="mission-type">
+        <xs:sequence>
+            <xs:element name="mission" type="xs:string" maxOccurs="1" minOccurs="1"/>
+            <xs:element name="customer-name" type="xs:string" maxOccurs="1" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="role-type">
+        <xs:sequence>
+            <xs:element name="role" type="xs:string" maxOccurs="1" minOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="personal-information-type">
+        <xs:sequence>
+            <xs:element name="person" type="person-type" maxOccurs="1" minOccurs="1"/>
+            <xs:element name="address" type="address-type" maxOccurs="1" minOccurs="0"/>
+            <xs:element name="contact" type="contact-type" maxOccurs="1" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="person-type">
+        <xs:sequence>
+            <xs:element name="firstname" type="xs:string" maxOccurs="1" minOccurs="1"/>
+            <xs:element name="lastname" type="xs:string" maxOccurs="1" minOccurs="1"/>
+            <xs:element name="birthdate" type="xs:date" maxOccurs="1" minOccurs="1"/>
+            <xs:element name="uuid" type="xs:string" maxOccurs="1" minOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="contact-type">
+        <xs:sequence>
+            <xs:element name="email" type="xs:string" maxOccurs="5" minOccurs="0"/>
+            <xs:element name="mobile-phone-number" type="phone-number-type" maxOccurs="5" minOccurs="0"/>
+            <xs:element name="home-phone-number" type="phone-number-type" maxOccurs="5" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="address-type">
+        <xs:sequence>
+            <xs:element name="apartment-number" type="xs:string" maxOccurs="1" minOccurs="0"/>
+            <xs:element name="building-number" type="xs:string" maxOccurs="1" minOccurs="0"/>
+            <xs:element name="street-number" type="xs:string" maxOccurs="1" minOccurs="0"/>
+            <xs:element name="street" type="xs:string" maxOccurs="1" minOccurs="1"/>
+            <xs:element name="city" type="xs:string" maxOccurs="1" minOccurs="1"/>
+            <xs:element name="postal-code" type="xs:string" minOccurs="1" maxOccurs="1"/>
+            <xs:element name="country" type="xs:string" maxOccurs="1" minOccurs="0"/>
+            <xs:element name="international-country-code" type="xs:string" maxOccurs="1" minOccurs="0"/>
+            <xs:element name="state" type="xs:string" maxOccurs="1" minOccurs="0"/>
+            <xs:element name="region" type="xs:string" maxOccurs="1" minOccurs="0"/>
+            <xs:element name="address-complementary" type="xs:string" maxOccurs="1" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="version-type">
+        <xs:sequence>
+            <xs:element name="created-at" type="xs:date" maxOccurs="1" minOccurs="1"/>
+            <xs:element name="updated-at" type="xs:date" maxOccurs="1" minOccurs="1"/>
+            <xs:element name="version-number" type="xs:integer" maxOccurs="1" minOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="phone-number-type">
+        <xs:sequence>
+            <xs:element name="country-code" type="xs:string" maxOccurs="1" minOccurs="1"/>
+            <xs:element name="phone-number" type="xs:string" maxOccurs="1" minOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

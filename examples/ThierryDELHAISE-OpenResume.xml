@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<open-resume xmlns="https://www.openresume.org"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="https://www.w3schools.com OpenResume.xsd">
+    <version>
+        <created-at>2024-05-02</created-at>
+        <updated-at>2024-05-02</updated-at>
+        <version-number>1</version-number>
+    </version>
+    <personal-information>
+        <person>
+            <firstname>Thierry</firstname>
+            <lastname>DELHAISE</lastname>
+            <birthdate>1967-05-12</birthdate>
+            <uuid>4FBE56AB-80B3-4A0C-97B2-E2AFAC403A3D</uuid>
+        </person>
+        <address>
+            <street-number>18</street-number>
+            <street>Lieu-dit Fourat</street>
+            <city>SAINT-MARTIN-DU-BOIS</city>
+            <postal-code>33910</postal-code>
+            <country>FRANCE</country>
+            <international-country-code>FR</international-country-code>
+        </address>
+        <contact>
+            <email>thierry.delhaise@gmail.com</email>
+            <mobile-phone-number>
+                <country-code>+33</country-code>
+                <phone-number>0766679972</phone-number>
+            </mobile-phone-number>
+        </contact>
+    </personal-information>
+    <experiences>
+        <experience>
+            <start-date>2021-09-06</start-date>
+            <job-name>Expert mobile Android &amp; iOS</job-name>
+            <company-name>onepoint</company-name>
+            <missions>
+                <mission></mission>
+            </missions>
+            <roles>
+                <role></role>
+            </roles>
+        </experience>
+    </experiences>
+</open-resume>
