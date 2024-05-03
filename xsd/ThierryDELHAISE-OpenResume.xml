@@ -2,7 +2,7 @@
 
 <open-resume xmlns="https://www.openresume.org"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="https://www.w3schools.com OpenResume.xsd">
+      xsi:schemaLocation="https://github.com/tdelhaise/OpenResume/blob/main/xsd OpenResume.xsd">
     <version>
         <created-at>2024-05-02</created-at>
         <updated-at>2024-05-02</updated-at>
