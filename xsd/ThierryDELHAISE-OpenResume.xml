@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+
+<open-resume xmlns="https://www.openresume.org"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="https://www.w3schools.com OpenResume.xsd">
+    <version>
+        <created-at>2024-05-02</created-at>
+        <updated-at>2024-05-02</updated-at>
+        <version-number>1</version-number>
+    </version>
+    <personal-information>
+        <person>
+            <firstname>Thierry</firstname>
+            <lastname>DELHAISE</lastname>
+            <birthdate>1967-05-12</birthdate>
+            <uuid>4FBE56AB-80B3-4A0C-97B2-E2AFAC403A3D</uuid>
+        </person>
+        <address>
+            <street-number>18</street-number>
+            <street>Lieu-dit Fourat</street>
+            <city>SAINT-MARTIN-DU-BOIS</city>
+            <postal-code>33910</postal-code>
+            <country>FRANCE</country>
+            <international-country-code>FR</international-country-code>
+        </address>
+        <contact>
+            <email>thierry.delhaise@gmail.com</email>
+            <mobile-phone-number>
+                <country-code>+33</country-code>
+                <phone-number>0766679972</phone-number>
+            </mobile-phone-number>
+        </contact>
+    </personal-information>
+    <experiences>
+        <experience>
+            <start-date>2021-09-06</start-date>
+            <job-name>Expert mobile Android &amp; iOS</job-name>
+            <company-name>onepoint</company-name>
+            <missions>
+                <mission>
+                    <short-description>Realisation d'un framework d'authentification et de crypto pour iOS &amp; Android</short-description>
+                    <customer-name>Credit Mutuel Arkéa</customer-name>
+                    <roles>
+                        <role>Tech Lead iOS</role>
+                        <role>Tech Lead Android</role>
+                        <role>Architecte Android</role>
+                        <role>Architecte iOS</role>
+                        <role>Senior developer Android</role>
+                        <role>Senior developer iOS</role>
+                    </roles>
+                    <description>Concevoir et développer un framework Android et iOS d'authentification et de crypto paramétrable dans le but de l'intégrer dans toutes les applications mobiles du groupe.
+                        - Test driven development avec une exigeance de code coverage fixée à 95%
+                        - Reposant sur des appels asynchrones pour les deux plates-formes
+                        - un minimum de dépendances externes. Se limiter au maximum à l'usage des SDKs natifs.
+                    </description>
+                    <used-tools>
+                        <tool-name>
+                            <name>Xcode</name>
+                            <knowledge-level>10</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>Android Studio</name>
+                            <knowledge-level>10</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>Swift</name>
+                            <knowledge-level>10</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>Kotlin</name>
+                            <knowledge-level>10</knowledge-level>
+                        </tool-name>
+                    </used-tools>
+                </mission>
+                <mission>
+                    <short-description>Realisation d'une application de e-learning iOS &amp; Android</short-description>
+                    <customer-name>Deezer</customer-name>
+                    <roles>
+                        <role>Tech Lead iOS</role>
+                        <role>Tech Lead Android</role>
+                        <role>Architecte Android</role>
+                        <role>Architecte iOS</role>
+                        <role>Senior developer Android</role>
+                        <role>Senior developer iOS</role>
+                    </roles>
+                    <description>Au sein de la division R &amp; D de Deezer, réaliser un prototype fonctionnel d'application de e-learning afin de proposer aux clients finaux l'ensemble des catalogues de ressources e-learning détenues par Deezer.
+                        - Concevoir une interface utilisateur simple, fonctionnelle mais de qualité.
+                        - Exigeance d'une application fluide et performante malgré la taille des catalogues.
+                        - Stockage des ressources sur les matériels afin de permettre une consultation des ressources en mode déconnecté.
+                        - Gestion de la synchronisation des catalogues et d'une faible occupation du stockage sur le device de l'utilisateur.
+                        - Remarque: A la livraison de l'application (iOS &amp; Android), le groupe Deezer choisira de ne pas publier l'application sur les stores.
+                    </description>
+                    <used-tools>
+                        <tool-name>
+                            <name>Xcode</name>
+                            <knowledge-level>10</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>Android Studio</name>
+                            <knowledge-level>10</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>Swift</name>
+                            <knowledge-level>10</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>Kotlin</name>
+                            <knowledge-level>10</knowledge-level>
+                        </tool-name>
+                    </used-tools>
+                </mission>
+            </missions>
+        </experience>
+    </experiences>
+</open-resume>
