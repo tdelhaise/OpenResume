@@ -14,7 +14,7 @@
     </xs:element>
     <xs:complexType name="experiences-type">
         <xs:sequence>
-            <xs:element name="experience" type="experience-type" maxOccurs="1" minOccurs="1"/>
+            <xs:element name="experience" type="experience-type" maxOccurs="50" minOccurs="1"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="experience-type">
@@ -45,7 +45,7 @@
     </xs:complexType>
     <xs:complexType name="used-tools-type">
         <xs:sequence>
-            <xs:element name="tool-name" type="tool-type" maxOccurs="10" minOccurs="1"/>
+            <xs:element name="tool-name" type="tool-type" maxOccurs="20" minOccurs="1"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="mission-type">

@@ -5,8 +5,8 @@
       xsi:schemaLocation="https://github.com/tdelhaise/OpenResume/blob/main/xsd OpenResume.xsd">
     <version>
         <created-at>2024-05-02</created-at>
-        <updated-at>2024-05-02</updated-at>
-        <version-number>1</version-number>
+        <updated-at>2024-05-03</updated-at>
+        <version-number>2</version-number>
     </version>
     <personal-information>
         <person>
@@ -107,7 +107,103 @@
                             <name>Kotlin</name>
                             <knowledge-level>10</knowledge-level>
                         </tool-name>
+                        <tool-name>
+                            <name>SwiftUI</name>
+                            <knowledge-level>8</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>SwiftUI</name>
+                            <knowledge-level>8</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>CryptoKit</name>
+                            <knowledge-level>8</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>Security</name>
+                            <knowledge-level>8</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>Keychains</name>
+                            <knowledge-level>8</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>SPM</name>
+                            <knowledge-level>10</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>SPM</name>
+                            <knowledge-level>10</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>Koin</name>
+                            <knowledge-level>7</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>Jetpack Compose</name>
+                            <knowledge-level>7</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>Language C/C++</name>
+                            <knowledge-level>10</knowledge-level>
+                        </tool-name>
                     </used-tools>
+                </mission>
+                <mission>
+                    <short-description>Realisation de module métier Android en Kotlin pour intégration dans des apps mobiles en marque blanche</short-description>
+                    <customer-name>Credit Mutuel Arkéa</customer-name>
+                    <roles>
+                        <role>Tech Lead Android</role>
+                        <role>Architecte Android</role>
+                        <role>Senior developer Android</role>
+                    </roles>
+                    <description>Au sein de la factory mobile du Crédit Mutuel Arkéa, réaliser des modules métiers afin de le les intégrés en tant que libraries métiers au sein d'applications mobiles Android proposées en marque blanche par la factory.
+                        - exemples: module "suivi d'opérations", module "virements", module "gestion de carte bancaire", module "contrats d'assurance"
+                        - Réaliser le découpage fonctionnel des actions de chaque module.
+                        - Isoler dans des modules séparés l'UI et les appels aux backends.
+                        - L'ensemble des appels backends doivent être paramétrables à la compilation.
+                        - Exigeance d'un code coverage à 80% pour les appels fonctionnels.
+                    </description>
+                    <used-tools>
+                        <tool-name>
+                            <name>Android Studio</name>
+                            <knowledge-level>10</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>Kotlin</name>
+                            <knowledge-level>10</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>Java</name>
+                            <knowledge-level>10</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>Gradle</name>
+                            <knowledge-level>8</knowledge-level>
+                        </tool-name>
+                        <tool-name>
+                            <name>Jenkins</name>
+                            <knowledge-level>5</knowledge-level>
+                        </tool-name>
+                    </used-tools>
+                </mission>
+            </missions>
+        </experience>
+        <experience>
+            <start-date>2019-11-03</start-date>
+            <end-date>2021-02-03</end-date>
+            <job-name>Architecte/Expert Technique Linux/Android</job-name>
+            <company-name>INEO E&amp;S</company-name>
+            <missions>
+                <mission>
+                    <short-description>Définir et réaliser la chaine de tests et d'homologation du produit AirVoice</short-description>
+                    <description>
+                        
+                    </description>
+                </mission>
+                <mission>
+                    <short-description>Etudier la possibilité de porter le produit AirVoice de Linux à Android afin de fournir des postes opérateurs AirVoice sur des terminaux Android</short-description>
+                    <description></description>
                 </mission>
             </missions>
         </experience>
